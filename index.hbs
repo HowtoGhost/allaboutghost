@@ -17,5 +17,23 @@
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">
+
+<div id="content">
+	{{#foreach posts}}
+    <article class="{{post_class}}">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt characters="500"}}&hellip;</p>
+        </section>
+    </article>
+
+    {{/foreach}}
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+</div>
+<div id="sidebar"></div>
     
 </main>

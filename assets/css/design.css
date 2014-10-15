@@ -6,7 +6,10 @@
 	text-shadow: 0 0 10px #000;
 }
 
-main.content {font-size: 16px;}
+main.content {
+	font-size: 16px;
+	position:relative;
+}
 .content {min-height: 600px;}
 
 html, body {
@@ -50,16 +53,6 @@ html, body {
 #twitter-menu a {padding-top:13px;padding-bottom:13px;}
 #twitter-menu a img {width:30px;}
 
-.arrow-down-1 {
-	width: 0; 
-	height: 0; 
-	border-left: 40px solid transparent; 
-	border-right: 40px solid transparent;	
-	border-top: 30px solid white;
-	margin:auto;
-}
-
-
 .home-headers {
 	text-align: center;
 	font-weight: 300;
@@ -72,6 +65,22 @@ html, body {
 .col-sm-4 {margin-bottom:25px;}
  
 /*Index*/
+
+#content {
+	background-color:#D8D8D8;
+	left:0;
+	height:100%;
+	position:absolute;
+	right:17em;
+}
+
+#sidebar {
+	background-color:#8E8E8E;
+	right:0;
+	height:100%;
+	width:17em;
+	position:absolute;
+}
 
 
 /*Posts*/
@@ -133,7 +142,7 @@ html, body {
 .page-title {margin:25px 0 50px 0;}
 
 /*Footer*/
-.site-footer {padding-top:20px;padding-bottom:20px;margin-top: 0;background-color: #494949;font-family:"Open Sans",sans-serif;color:white;margin-top: 25px;}
+.site-footer {padding-top:20px;padding-bottom:20px;margin-top: 0;background-color: #494949;font-family:"Open Sans",sans-serif;color:white;}
 .site-footer a {color:white;}
 .footer-header {font-size:20px;}
 .site-footer p {font-size:16px;font-weight: 100;}
