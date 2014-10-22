@@ -89,6 +89,12 @@ html, body {
 
 .wrapper {overflow:hidden;}
 
+.pagination {
+	margin:auto;
+	display:block;
+	margin-bottom: 20px;
+}
+
 
 /*Posts*/
 
