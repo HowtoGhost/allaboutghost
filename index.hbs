@@ -17,7 +17,7 @@
 {{! The main content area on the homepage }}
 <main class="content" role="main">
     <div class="wrapper">
-        <div id="content" class="col-md-10">
+        <div id="content" class="col-md-9">
         	{{#foreach posts}}
             <article class="{{post_class}}">
                 <header class="post-header">
@@ -33,7 +33,7 @@
             {{!! After all the posts, we have the previous/next pagination links }}
             {{pagination}}
         </div>
-        <div id="sidebar" class="col-md-2"></div>
+        {{> "sidebar"}}
 
         <div style="clear:both;"></div>
     </div>
