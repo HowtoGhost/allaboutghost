@@ -12,6 +12,16 @@
    "children": [
     {"name": "Description of config.example.js"}
    ]
+  },
+  {
+   "name": "content",
+   "children": [
+    {"name": "apps",
+     "children": [
+      {"name": "README.md"}
+     ]
+    }
+   ]
   }
  ]
 }
