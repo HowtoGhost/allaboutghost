@@ -379,9 +379,9 @@
       {"name": "components",
        "children": [
         {"name": "Description of components"},
-        {"name": "gh-activating-list-item.js.js",
+        {"name": "gh-activating-list-item.js",
         "children": [
-          {"name": "Description of gh-activating-list-item.js.js"}
+          {"name": "Description of gh-activating-list-item.js"}
         ]},
         {"name": "gh-codemirror.js",
         "children": [
@@ -466,7 +466,139 @@
         {"name": "gh-uploader.js",
         "children": [
           {"name": "Description of gh-uploader.js"}
+        ]}
+      ]},
+      {"name": "controllers",
+       "children": [
+        {"name": "Description of controllers"},
+        {"name": "editor",
+         "children": [
+          {"name": "Description of editor"},
+          {"name": "edit.js",
+           "children": [
+            {"name": "Description of edit.js"}
+          ]},
+          {"name": "new.js",
+           "children": [
+            {"name": "Description of new.js"}
+          ]}
         ]},
+        {"name": "modals",
+         "children": [
+          {"name": "Description of modals"},
+          {"name": "auth-failed-unsaved.js",
+           "children": [
+            {"name": "Description of auth-failed-unsaved.js"}
+          ]},
+          {"name": "copy-html.js",
+           "children": [
+            {"name": "Description of copy-html.js"}
+          ]},
+          {"name": "delete-all.js",
+           "children": [
+            {"name": "Description of delete-all.js"}
+          ]},
+          {"name": "delete-post.js",
+           "children": [
+            {"name": "Description of delete-post.js"}
+          ]},
+          {"name": "delete-user.js",
+           "children": [
+            {"name": "Description of delete-user.js"}
+          ]},
+          {"name": "invite-new-user.js",
+           "children": [
+            {"name": "Description of invite-new-user.js"}
+          ]},
+          {"name": "leave-editor.js",
+           "children": [
+            {"name": "Description of leave-editor.js"}
+          ]},
+          {"name": "transfer-owner.js",
+           "children": [
+            {"name": "Description of transfer-owner.js"}
+          ]},
+          {"name": "upload.js",
+           "children": [
+            {"name": "Description of upload.js"}
+          ]}
+        ]},
+        {"name": "posts",
+         "children": [
+          {"name": "Description of posts"},
+          {"name": "post.js",
+           "children": [
+            {"name": "Description of post.js"}
+          ]}
+        ]},
+        {"name": "settings",
+         "children": [
+          {"name": "Description of settings"},
+          {"name": "users",
+           "children": [
+            {"name": "Description of users"},
+            {"name": "index.js",
+             "children": [
+              {"name": "Description of index.js"}
+            ]},
+            {"name": "user.js",
+             "children": [
+              {"name": "Description of user.js"}
+            ]}
+          ]},
+          {"name": "app.js",
+           "children": [
+            {"name": "Description of app.js"}
+          ]},
+          {"name": "general.js",
+           "children": [
+            {"name": "Description of general.js"}
+          ]}
+        ]},
+        {"name": "application.js",
+        "children": [
+          {"name": "Description of application.js"}
+        ]},
+        {"name": "debug.js",
+        "children": [
+          {"name": "Description of debug.js"}
+        ]},
+        {"name": "error.js",
+        "children": [
+          {"name": "Description of error.js"}
+        ]},
+        {"name": "forgotten.js",
+        "children": [
+          {"name": "Description of forgotten.js"}
+        ]},
+        {"name": "post-settings-menu.js",
+        "children": [
+          {"name": "Description of post-settings-menu.js"}
+        ]},
+        {"name": "posts.js",
+        "children": [
+          {"name": "Description of posts.js"}
+        ]},
+        {"name": "reset.js",
+        "children": [
+          {"name": "Description of reset.js"}
+        ]},
+        {"name": "settings.js",
+        "children": [
+          {"name": "Description of settings.js"}
+        ]},
+        {"name": "setup.js",
+        "children": [
+          {"name": "Description of setup.js"}
+        ]},
+        {"name": "signin.js",
+        "children": [
+          {"name": "Description of signin.js"}
+        ]},
+        {"name": "signup.js",
+        "children": [
+          {"name": "Description of signup.js"}
+        ]}
       ]}
     ]}
   ]}
