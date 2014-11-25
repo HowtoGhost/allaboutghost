@@ -129,6 +129,10 @@ html, body {
 	margin:auto;
 }
 
+#sidebar-top-posts h4 {
+	text-align: center;
+}
+
 /*Email List*/
 
 #optin {
