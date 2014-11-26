@@ -96,6 +96,14 @@ html, body {
 	margin-bottom: 20px;
 }
 
+.post-info {
+	text-align: center;
+}
+
+.post-excerpt .post-words {
+	margin-top: .8rem;
+}
+
 
 /*Posts*/
 
