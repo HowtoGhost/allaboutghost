@@ -75,7 +75,7 @@ html, body {
 }
 
 #sidebar {
-	background-color:#8E8E8E;
+	background-color: #f7f7f7;
 	float:right;
 /*	right:0;
 	height:100%;
@@ -124,7 +124,7 @@ html, body {
     padding: 10px;
     margin-top: 10px;
     color: white;
-    background-color: #b5b5b5;
+    background-color: #2f8cde;
     border-radius: 25px;
 }
 
@@ -150,7 +150,7 @@ html, body {
 	/*color: #fff;*/
 	padding: 0 15px 20px 15px;
 	text-align: center;
-	background-color: #b5b5b5;
+	background-color: #2f8cde;
 	border-radius: 25px;
 }
 #optin input {
@@ -168,7 +168,7 @@ html, body {
 #optin input.email { background: #fff url(/assets/images/email.png) no-repeat 10px center; padding-left: 35px; width:170px;}
 #optin input.name { background: #fff url(/assets/images/name.png) no-repeat 10px center; padding-left: 35px; width:170px;}
 #optin input[type="submit"] {
-	background: #2f8cde;
+	background: #494949;
 	border: 1px solid #111;
 	color: #fff;
 	cursor: pointer;
