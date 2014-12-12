@@ -250,6 +250,7 @@ html, body {
 	text-align: center;
 	background-color: #2f8cde;
 	border-radius: 25px;
+	margin-bottom: 10px;
 }
 #optin input {
 	border: 1px solid #111;
