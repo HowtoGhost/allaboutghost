@@ -203,6 +203,14 @@ html, body {
 	width: 70%;
 }
 
+.theme-table-image {
+	margin-bottom: 0;
+}
+
+.theme-table-image a img {
+	width: 100%;
+}
+
 /*Sidebar*/
 
 #sidebar-top-posts {
@@ -324,4 +332,6 @@ html, body {
 }
 
 /*Error Page*/
-
+.error-page {
+	text-align: center;
+}
