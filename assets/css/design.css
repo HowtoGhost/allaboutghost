@@ -217,13 +217,17 @@ html, body {
     border: 3px solid #494949;
     padding: 10px;
     margin-top: 10px;
-    color: white;
     background-color: #2f8cde;
     border-radius: 25px;
 }
 
+#sidebar-top-posts p a {
+	color: white;
+}
+
 #sidebar-top-posts h4 {
 	border-bottom: 1px solid white;
+	color: white;
 	padding-bottom: 3px;
 	letter-spacing: .3px;
 }
