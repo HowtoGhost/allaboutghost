@@ -5,14 +5,27 @@
 
 <main class="content" role="main">
 
-        {{#post}}
+	{{> "sidebar"}}
 
-            <h1 class="post-title page-title">{{{title}}}</h1>
+    <div class="col-md-9">
+        <article class="{{post_class}}">
 
-            <section class="post-content">
-                {{content}}
-            </section>
+            {{! Everything inside the #post tags pulls data from the post }}
 
-        {{/post}}
+            {{#post}}
+                <div class="wrapper">
+
+                    <h1 class="post-title">{{{title}}}</h1>
+                    <hr class="post-title-hr">
+
+                    <div class="post-content">
+                        {{content}}
+                    </div>                    
+
+                </div>
+            {{/post}}
+
+        </article>
+    </div>
 
 </main>
