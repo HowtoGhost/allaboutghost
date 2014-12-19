@@ -161,6 +161,12 @@ html, body {
 	margin-top: .8rem;
 }
 
+.post-excerpt p img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
 
 /*Posts*/
 
