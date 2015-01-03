@@ -346,3 +346,73 @@ html, body {
 .error-page {
 	text-align: center;
 }
+
+/*Media Queries*/
+
+@media only screen and (max-width: 900px) {
+	.post {
+		padding-left: 0;
+	}
+
+	.post-excerpt p, .post-content p {
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+	p.post-info {
+	    font-size: 1.2em;
+	}
+
+	#sidebar {
+		width: 100%;
+	}
+
+	#sidebar-top-posts {
+		width: 60%;
+		margin: auto;
+	}
+
+	#optin {
+		width: 60%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#sidebar-top-posts {
+		width: 80%;
+		margin: auto;
+	}
+
+	#optin {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#sidebar-top-posts {
+		width: 100%;
+	}
+
+	#optin {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	h1, h2 {
+        font-size: 3rem;
+        line-height: 1.1em;
+        letter-spacing: -1px;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+    }
+
+    h4 {
+        font-size: 2.3rem;
+    }
+}
