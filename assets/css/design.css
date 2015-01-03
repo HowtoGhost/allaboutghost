@@ -219,7 +219,7 @@ html, body {
 
 /*Sidebar*/
 
-#sidebar-top-posts {
+.sidebar-content {
     border: 3px solid #494949;
     padding: 10px;
     margin-top: 10px;
@@ -227,11 +227,11 @@ html, body {
     border-radius: 25px;
 }
 
-#sidebar-top-posts p a {
+.sidebar-content p a {
 	color: white;
 }
 
-#sidebar-top-posts h4 {
+.sidebar-content h4 {
 	border-bottom: 1px solid white;
 	color: white;
 	padding-bottom: 3px;
@@ -245,6 +245,17 @@ html, body {
 
 #sidebar-top-posts h4 {
 	text-align: center;
+}
+
+#sidebar-book {
+	text-align: center;
+}
+
+#sidebar-book a {
+	color: white;
+}
+#sidebar-book img {
+	max-width: 80%;
 }
 
 /*Email List*/
