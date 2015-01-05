@@ -225,6 +225,8 @@ html, body {
     margin-top: 10px;
     background-color: #2f8cde;
     border-radius: 25px;
+    font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .sidebar-content p a {
@@ -254,8 +256,21 @@ html, body {
 #sidebar-book a {
 	color: white;
 }
-#sidebar-book img {
-	max-width: 80%;
+
+#book-image-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.book-image {
+	width: 100%;
+}
+
+#book-amazon-image {
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 /*Email List*/
@@ -375,43 +390,43 @@ html, body {
 	}
 
 	#sidebar {
-		width: 100%;
-	}
-
-	#sidebar-top-posts {
 		width: 60%;
 		margin: auto;
+		float: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 
-	#optin {
+/*	#optin {
 		width: 60%;
 		margin: auto;
 		margin-bottom: 25px;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 768px) {
-	#sidebar-top-posts {
+	#sidebar {
 		width: 80%;
 		margin: auto;
 	}
 
-	#optin {
+/*	#optin {
 		width: 80%;
 		margin: auto;
 		margin-bottom: 25px;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 500px) {
-	#sidebar-top-posts {
+	#sidebar {
 		width: 100%;
+		margin: auto;
 	}
 
-	#optin {
+/*	#optin {
 		width: 100%;
 		margin-bottom: 25px;
-	}
+	}*/
 
 	h1, h2 {
         font-size: 3rem;
