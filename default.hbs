@@ -20,6 +20,7 @@
     <script type="text/javascript" src={{asset "js/jquery.ghostHunter.min.js"}}></script>
 
     {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/css/fluidbox.css" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,600,400,300|Source+Sans+Pro|Ubuntu" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
@@ -109,6 +110,13 @@
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
+
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js'></script>
+    <script>
+        $('a').fluidbox({
+            viewportFill: 0.8,
+        });
+    </script>
 
 </body>
 </html>

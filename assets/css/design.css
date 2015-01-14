@@ -143,8 +143,9 @@ html, body {
 	margin-bottom: -30000px;
 }
 
-.wrapper {
-	overflow: hidden;
+.index-wrapper {
+	overflow-x: visible;
+	overflow-y: hidden;
 }
 
 .pagination {
