@@ -218,6 +218,16 @@ html, body {
 	width: 100%;
 }
 
+#sharing-icons {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#twitter-share-post,#facebook-share-post {
+	height: 20px;
+	display: inline-block;
+}
+
 /*Sidebar*/
 
 .sidebar-content {
@@ -241,9 +251,13 @@ html, body {
 	letter-spacing: .3px;
 }
 
-#sidebar-twitter {
+#sidebar-twitter, #sidebar-facebook {
 	width: 13.25em;
 	margin: auto;
+}
+
+#sidebar-facebook iframe {
+	margin: 0;
 }
 
 #sidebar-top-posts h4 {
