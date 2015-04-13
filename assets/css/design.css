@@ -376,6 +376,11 @@ html, body {
 
 /* Announcement Bar */
 
+.nav-top {
+	height: 42px;
+	min-height: 0;
+}
+
 #announcements-container {
 	/*background-color: #bababa;*/
 	line-height: 40px;
@@ -492,9 +497,10 @@ html, body {
 }
 
 @media (max-width: 950px) {
-	#announcements-container {
+	#announcements-container, .nav-top {
 		height: 82px;
 	}
+
 	.announcements-header {
 		display: none;
 	}
@@ -530,7 +536,7 @@ html, body {
 }
 
 @media (max-width: 767px) {
-	#announcements-container {
+	.nav-top {
 		display: none;
 	}
 }

@@ -36,26 +36,27 @@
 
     </script>
 
-    <nav class="navbar navbar-default nav-top nav-announcement" role="navigation">
-  <div class="container-fluid" id="announcements-container">
-    <div class="navbar-header announcements-header">
-      <a class="navbar-brand announcements-brand"><img src="/assets/favicon.ico" \></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul id="nav-announcements" class="nav navbar-nav navbar-left">
-        <li><a href="/">Ghost for Beginners</a></li>
-        <li class="active-site"><a href="https://allaboutghost.com">All About Ghost</a></li>
-        <li><a href="https://allghostthemes.com">All Ghost Themes</a></li>
-        <li id="last-announcement-li"><a href="https://howtoinstallghost.com">How to Install Ghost</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-left" id="announcement-text">
-        <li>
-            <a href="https://ghostforbeginners.com/ebook">Get updates on our upcoming eBook! <button id="announcement-subscribe">Subscribe</button> </a>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <nav class="navbar navbar-default nav-top nav-announcement" role="navigation">
+    <div class="container-fluid" id="announcements-container">
+      <div class="navbar-header announcements-header">
+        <a class="navbar-brand announcements-brand"><img src="/assets/favicon.ico" \></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div>
+        <ul id="nav-announcements" class="nav navbar-nav navbar-left">
+          <li><a href="/">Ghost for Beginners</a></li>
+          <li class="active-site"><a href="https://allaboutghost.com">All About Ghost</a></li>
+          <li><a href="https://allghostthemes.com">All Ghost Themes</a></li>
+          <li id="last-announcement-li"><a href="https://howtoinstallghost.com">How to Install Ghost</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-left" id="announcement-text">
+          <li>
+              <a href="https://ghostforbeginners.com/ebook">Get updates on our upcoming eBook! <button id="announcement-subscribe">Subscribe</button> </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
   <script>
   var announcementsWidth = ($('.navbar-collapse').width() - ($('#nav-announcements').width()+$('.navbar-brand').width()));
