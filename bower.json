@@ -1,0 +1,8 @@
+{
+  "name": "All About Ghost",
+  "dependencies": {
+    "jquery": "latest",
+    "ghost-hunter": "latest",
+    "fluidbox": "latest"
+  }
+}
