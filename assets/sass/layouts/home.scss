@@ -44,6 +44,25 @@
 
 .post-excerpt {
 
+	img {
+		max-width: 100%;
+	}
+
+	p {
+
+		img {
+			width: 70%;
+			margin: auto;
+		}
+	}
+
+	.full-image {
+		width: 70%;
+		margin: auto;
+	}
+}
+.post-excerpt {
+
 	.fluidbox-wrap {
 		text-align: center;
 	}
