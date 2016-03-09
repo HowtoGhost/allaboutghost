@@ -70,12 +70,7 @@
 
 #sharing-icons {
 	text-align: center;
-	padding-bottom: 20px;
-}
-
-#twitter-share-post,#facebook-share-post {
-	height: 20px;
-	display: inline-block;
+	margin: 25px 25px 0;
 }
 
 .github-link {
@@ -87,3 +82,8 @@
 	padding: 5px;
 	border: 1px solid black;
  }
+
+.post-meta {
+	margin-top: 15px;
+	width: 100%;
+}
